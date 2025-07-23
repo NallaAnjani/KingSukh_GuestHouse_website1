@@ -1,0 +1,118 @@
+.section2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 180px 10px;
+  gap: 80px;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+.section2-image {
+  flex: 1;
+  min-width: 30vh;
+  max-width: 60vh;
+}
+
+.section2-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.section2-content {
+  
+  max-width: 40vw;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section2-subtitle {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #000;
+}
+
+.section2-subtitle::after {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: #e91e63;
+  
+  vertical-align: middle;
+}
+
+.section2-title {
+  font-size:2.5rem;
+ 
+  color: #111;
+}
+
+.section2-description {
+  font-size: 19px;
+  color: #666;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+.section2-address a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #920ee5; /* Dark purple */
+ 
+}
+
+.phone_num,.phone_num a{
+    font-weight: bold;
+    color:blue ;
+}
+
+.section2-address a {
+  color: #0d47a1; /* Bright blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section2-button {
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+ 
+}
+
+.section2-button:hover {
+  background-color: #c2185b;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .section2-container {
+    gap:1px;
+    padding-top:150px 50px;
+ 
+
+  }
+
+  .section2-content {
+    max-width: 100%;
+  }
+
+  .section2-title {
+    font-size: 28px;
+  }
+
+  .section2-description,
+  .section2-address {
+    font-size: 14px;
+  }
+
+ 
+  
+}
