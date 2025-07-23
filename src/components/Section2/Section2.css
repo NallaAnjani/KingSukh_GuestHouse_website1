@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 180px 10px;
+  padding: 180px 10px 100px;
   gap: 80px;
   flex-wrap: wrap;
   background-color: #ffffff;
@@ -72,6 +72,7 @@
   color: #0d47a1; /* Bright blue */
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 .section2-button {
@@ -95,13 +96,16 @@
 @media screen and (max-width: 768px) {
   .section2-container {
     gap:1px;
-    padding-top:150px 50px;
+    padding:150px 15px 20px;
+    
+   
  
 
   }
 
   .section2-content {
     max-width: 100%;
+    padding: 20px;
   }
 
   .section2-title {
@@ -111,6 +115,7 @@
   .section2-description,
   .section2-address {
     font-size: 14px;
+
   }
 
  

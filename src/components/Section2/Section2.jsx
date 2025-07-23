@@ -6,7 +6,8 @@ const Section2 = () => {
     <div className="section2-container">
       <div className="section2-image">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
+           src="https://www.kingsukhguesthouse.com/assets/out.jpg"
+          
           alt="Guest House"
         />
       </div>

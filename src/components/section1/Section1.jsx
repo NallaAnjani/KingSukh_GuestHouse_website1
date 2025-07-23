@@ -25,7 +25,7 @@ const Section1 = () => {
         </div>
 
         <div className="book-now">
-          <a href="#">
+          <a href="https://wa.me/9007062180" target="_self">
             <button>BOOK NOW</button>
           </a>
         </div>
@@ -60,7 +60,7 @@ const Section1 = () => {
         </h1>
       </div>
        <div className="book-now1">
-          <a href="#">
+          <a href="https://wa.me/9007062180" target="_self">
             <button>BOOK NOW</button>
           </a>
         </div>

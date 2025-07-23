@@ -209,9 +209,12 @@ body {
   z-index: 5;
 
   width: calc(100% - 40px); /* responsive width with padding */
-  max-width: 500px;         /* keeps it from stretching too wide */
+          /* keeps it from stretching too wide */
   padding: 2rem 18rem;
   text-align: center;
+  margin-left: 20px;
+  margin-right: 100px;
+  width: 500px;
 
   background-color: white;
   border-radius: 10px;
