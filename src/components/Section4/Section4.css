@@ -36,12 +36,12 @@
 
 .section4-subtitle::after {
   content: "";
-  display: block;
-  height: 3px;
-  width: 40px;
+  display: inline-block;
+  width: 50px;
+  height: 2px;
   background-color: #e91e63;
-  margin-top: 5px;
-  border-radius: 2px;
+  
+  vertical-align: middle;
 }
 
 .section4-title {
@@ -100,23 +100,25 @@
 }
 @media (max-width: 768px) {
   .section4-bg {
+    width: 80vw;
+    height:100vh;
     justify-content: center;
-    padding: 2rem 1rem;
+    padding: 0.0rem 2rem;
   }
 
   .section4-content {
-    width: 90%;
-    height: auto;
+    width: 60vw;
+    height: 90vh;
     margin: 0;
-    padding: 2rem;
+    padding: 2rem 4rem;
   }
 
   .section4-title {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 
   .service-item {
-    font-size: 16px;
+    font-size: 20px;
     gap: 15px;
   }
 

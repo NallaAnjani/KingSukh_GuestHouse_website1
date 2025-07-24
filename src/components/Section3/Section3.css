@@ -3,8 +3,9 @@
 
 .section3 {
   background-color: #fff;
-  padding: 3rem 11rem 5rem;
+  padding: 3rem 11rem 7rem;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 .subtitle {
@@ -119,7 +120,7 @@
 
 @media screen and (max-width: 768px) {
   .section3 {
-    padding: 1.5rem;
+    padding: 3rem;
   }
 
   .title {

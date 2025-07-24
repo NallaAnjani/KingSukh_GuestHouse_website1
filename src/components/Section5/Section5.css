@@ -1,0 +1,36 @@
+.section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.stat-box {
+  display: flex;
+  justify-content: space-around;
+  background-color:white;
+ 
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(14, 14, 14, 0.05);
+  width: 90%;
+  max-width: 70vw;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.stat {
+  text-align: center;
+  flex: 1 1 200px;
+}
+
+.stat h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
