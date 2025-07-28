@@ -28,6 +28,7 @@ const Section1 = () => {
           <a href="https://wa.me/9007062180" target="_self">
             <button>BOOK NOW</button>
           </a>
+          
         </div>
 
         <div className="menu-icon" onClick={toggleMenu}>
