@@ -47,11 +47,12 @@
 // };
 
 // export default Section6;
+
 import React from 'react'
 import "./Section6.css"; 
 
 const images = [
-  "/images/1.jpg",
+  "./images/1.jpg",
   "/images/hills.jpg",
   "/images/room1.jpg",
   "/images/road-red-trees.jpg",
@@ -67,7 +68,7 @@ const images = [
 const Section6 = () => {
   return (
      <div className="gallery-container">
-      
+      <img src="./" alt="" />
       <h2 className="gallery-title">GALLARY</h2>
      
       <div className="gallery-grid">
