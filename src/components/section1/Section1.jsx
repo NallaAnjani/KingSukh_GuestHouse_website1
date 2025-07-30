@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Section1.css";
 
+import images from '../../assets/images/flower.jpg'
 const Section1 = () => {
   const [isOpen, setIsOpen] = useState(false);
 

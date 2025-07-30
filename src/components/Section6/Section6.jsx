@@ -1,86 +1,96 @@
-// import React from "react";
-// import { Container, Row, Col } from "react-bootstrap";
 
-// const images = [
-//   "/images/guesthouse.jpg",
-//   "/images/hills.jpg",
-//   "/images/room1.jpg",
-//   "/images/road-red-trees.jpg",
-//   "/images/room2.jpg",
-//   "/images/sunset-mountain.jpg",
-//   "/images/living-room.jpg",
-//   "/images/road-orange-trees.jpg",
-//   "/images/room3.jpg",
-//   "/images/dam.jpg",
-// ];
 
-// const Section6= () => {
-//   return (
-//     <Container className="py-4">
-//       <h2 className="text-center fw-bold mb-4 position-relative">
-//         GALLARY
-//         <div
-//           style={{
-//             height: "3px",
-//             width: "60px",
-//             backgroundColor: "#e83e8c",
-//             margin: "0 auto",
-//             marginTop: "8px",
-//           }}
-//         />
-//       </h2>
 
-//       <Row xs={2} md={3} className="g-2">
-//         {images.map((src, idx) => (
-//           <Col key={idx}>
-//             <img
-//               src={src}
-//               alt={`gallery-${idx}`}
-//               className="img-fluid rounded"
-//               style={{ width: "100%", height: "auto", objectFit: "cover" }}
-//             />
-//           </Col>
-//         ))}
-//       </Row>
-//     </Container>
-//   );
-// };
+import React from 'react';
+import './Section6.css';
+import img1 from '../../assets/images/out.jpg';
+import img2 from '../../assets/images/ayodhya.webp';
+import img3 from '../../assets/images/large.jpg';
+import img4 from '../../assets/images/palash.webp';
+import img5 from '../../assets/images/small.jpg';
 
-// export default Section6;
+import img6 from '../../assets/images/baranti.webp';
 
-import React from 'react'
-import "./Section6.css"; 
+import img7 from '../../assets/images/recep.jpg';
+import img8 from '../../assets/images/flower.jpg';
+import img9 from '../../assets/images/room1.jpg';
+import img10 from '../../assets/images/mithonDam.webp';
+
+
+
+
+
 
 const images = [
-  "./images/1.jpg",
-  "/images/hills.jpg",
-  "/images/room1.jpg",
-  "/images/road-red-trees.jpg",
-  "/images/room2.jpg",
-  "/images/sunset-mountain.jpg",
-  "/images/living-room.jpg",
-  "/images/road-orange-trees.jpg",
-  "/images/room3.jpg",
-  "/images/dam.jpg",
+  { src: img1, area: 'img1' },
+  { src: img2, area: 'img2' },
+  { src: img3, area: 'img3' },
+  { src: img4, area: 'img4' },
+  { src: img5, area: 'img5' },
+  { src: img6, area: 'img6' },
+  { src: img7, area: 'img7' },
+  { src: img8, area: 'img8' },
+  { src: img9, area: 'img9' },
+  { src: img10, area: 'img10' },
 ];
-
 
 const Section6 = () => {
   return (
-     <div className="gallery-container">
-      <img src="./" alt="" />
-      <h2 className="gallery-title">GALLARY</h2>
-     
-      <div className="gallery-grid">
-        {images.map((src, index) => (
-          <div className="gallery-item" key={index}>
-            <img src={src} alt={`gallery-${index}`} className="gallery-image" />
+    <div className="gallery-wrapper">
+      <h2 className="gallery-title">Gallery</h2>
+      <div className="image-grid">
+        {images.map((img, index) => (
+          <div className="image-item" style={{ gridArea: img.area }} key={index}>
+            <img src={img.src} alt={`img-${index}`} />
           </div>
-          
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Section6
+export default Section6;
+
+
+
+
+
+
+
+// import React from 'react'
+// import "./Section6.css"; 
+// import images from '../../assets/images/out.jpg'
+
+// // const images = [
+// //   "./images/1.jpg",
+// //   "/images/hills.jpg",
+// //   "/images/room1.jpg",
+// //   "/images/road-red-trees.jpg",
+// //   "/images/room2.jpg",
+// //   "/images/sunset-mountain.jpg",
+// //   "/images/living-room.jpg",
+// //   "/images/road-orange-trees.jpg",
+// //   "/images/room3.jpg",
+// //   "/images/dam.jpg",
+// // ];
+
+
+// const Section6 = () => {
+//   return (
+//      <div className="gallery-container">
+      
+//       <h2 className="gallery-title">GALLARY</h2>
+  
+//       <div className="gallery-grid">
+//         {images.map((src, index) => (
+//           <div className="gallery-item" key={index}>
+//             <img src={src} alt={`gallery-${index}`} className="gallery-image" />
+//           </div>
+          
+//         ))}
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default Section6

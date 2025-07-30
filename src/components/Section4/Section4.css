@@ -1,5 +1,5 @@
 .section4-bg {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkoj4BZmD1KH2YPBIYWDrVUvthRhW_ik8Dg&s'); /* 👈 update this */
+  background-image: url("../../assets/images/palash.webp"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
