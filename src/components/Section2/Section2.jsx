@@ -43,7 +43,12 @@ const Section2 = () => {
             <a href="tel:+919007062180">+91 9007062180</a>
           </span>
         </p>
-        <button className="section2-button">BOOK NOW</button>
+        
+         <div >
+          <a href="https://wa.me/9007062180" target="_self">
+            <button className="section2-button">BOOK NOW</button>
+          </a>
+        </div>
       </div>
     </div>
   );

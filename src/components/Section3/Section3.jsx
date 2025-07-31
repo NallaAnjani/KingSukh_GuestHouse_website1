@@ -1,13 +1,16 @@
 import React from "react";
 
-import { FaHeart, FaTint, FaShieldAlt } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
+import { LuPaintBucket } from 'react-icons/lu';
+import { RiShieldStarLine } from 'react-icons/ri';
+
 import "./Section3.css";
 
 const Section3 = () => {
   return (
     <section className="section3">
       <p className="subtitle">OUR LIVING ROOM</p>
-      <h2 className="title">The Most Memorable Rest <br/>Time Starts Here.</h2>
+      <h2 className="title">The Most Memorable Rest Time Starts Here.</h2>
       <div className="card-wrapper">
         {/* Room 1 */}
         <div className="room-card">
@@ -15,8 +18,8 @@ const Section3 = () => {
             <img src="https://www.kingsukhguesthouse.com/assets/small.jpg" alt="Cozy Haven Room" />
             <div className="icon-group">
               <span><FaHeart style={{color:"#ea5184"}}/></span>
-              <span><FaTint style={{color:""}}/></span>
-              <span><FaShieldAlt/></span> 
+              <span><LuPaintBucket style={{color:"#cb51eaff"}}/></span>
+              <span><RiShieldStarLine style={{color:"#4ebddfff"}}/></span> 
             </div>
           </div>
           <div className="room-info">
@@ -44,8 +47,8 @@ const Section3 = () => {
             <img src="https://www.kingsukhguesthouse.com/assets/large.jpg" alt="Spacious Serenity Suite" />
             <div className="icon-group">
               <FaHeart style={{color:"#ea5184"}}/>
-              <FaTint />
-              <FaShieldAlt />
+              < LuPaintBucket style={{color:"#cb51eaff"}}/>
+              < RiShieldStarLine style={{color:"#4ebddfff"}}/>
             </div>
           </div>
           <div className="room-info">
