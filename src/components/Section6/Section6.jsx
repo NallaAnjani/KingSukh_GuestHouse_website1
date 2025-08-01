@@ -36,7 +36,7 @@ const images = [
 
 const Section6 = () => {
   return (
-    <div className="gallery-wrapper">
+    <div className="gallery-wrapper" id = "gallery">  
       <h2 className="gallery-title">Gallery</h2>
       <div className="image-grid">
         {images.map((img, index) => (

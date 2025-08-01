@@ -8,7 +8,7 @@ import "./Section3.css";
 
 const Section3 = () => {
   return (
-    <section className="section3">
+    <section className="section3" id ="rooms">
       <p className="subtitle">OUR LIVING ROOM</p>
       <h2 className="title">The Most Memorable Rest Time Starts Here.</h2>
       <div className="card-wrapper">
@@ -32,7 +32,7 @@ const Section3 = () => {
             </p>
             <a
               href="https://wa.me/919876543210"
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
               className="book-btn"
             >
@@ -61,7 +61,7 @@ const Section3 = () => {
             </p>
             <a
               href="https://wa.me/919876543210"
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
               className="book-btn"
             >

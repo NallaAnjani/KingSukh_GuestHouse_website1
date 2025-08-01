@@ -11,7 +11,7 @@
   background-color:white;
  
   border-radius: 1rem;
-  box-shadow: 0 10px 20px rgba(14, 14, 14, 0.05);
+  box-shadow: 0 10px 20px rgba(14, 14, 14, 0.427);
   width: 90%;
   max-width: 70vw;
   flex-wrap: wrap;
@@ -30,7 +30,7 @@
 }
 
 .stat p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #777;
-  margin-top: 0.5rem;
+
 }

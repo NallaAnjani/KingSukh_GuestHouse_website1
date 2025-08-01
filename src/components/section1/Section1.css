@@ -9,6 +9,7 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 97vh;
+
 }
 
 .navbar {
@@ -259,6 +260,12 @@ body {
  .navbar{
 background-color: #f63e88 !important;
 padding: 20px;
+position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 1000;
+ 
  }
   .hero-text h1 {
     font-size: 4rem;

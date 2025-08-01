@@ -3,7 +3,7 @@ import "./Section2.css";
 
 const Section2 = () => {
   return (
-    <div className="section2-container">
+    <div className="section2-container" id="sec2">
       <div className="section2-image">
         <img
            src="https://www.kingsukhguesthouse.com/assets/out.jpg"

@@ -9,7 +9,7 @@ const Section1 = () => {
 
   return (
     <div className="main">
-      <div className="navbar">
+      <div className="navbar" >
         <div className="brand">
           Kingsukh
           <br />
@@ -17,12 +17,12 @@ const Section1 = () => {
         </div>
 
         <div className={`nav-links ${isOpen ? "open" : ""}`}>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Rooms</a>
-          <a href="#">Gallery</a>
-          <a href="#">Contact</a>
+          <a href="#sec1">Home</a>
+          <a href="#sec2">About</a>
+          <a href="#service">Services</a>
+          <a href="#rooms">Rooms</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
         </div>
 
         <div className="book-now">
@@ -44,17 +44,17 @@ const Section1 = () => {
             ✖
           </div>
           <div className="mobile-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Rooms</a>
-            <a href="#">Gallery</a>
-            <a href="#">Contact</a>
+            <a href="#sec1">Home</a>
+            <a href="#sec2">About</a>
+            <a href="#service">Services</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       )}
 
-      <div className="hero-text" >
+      <div className="hero-text" id="sec1" >
         <p>Simple – Unique – Friendly</p>
         <h1>Make Yourself At Home</h1>
         <h1>

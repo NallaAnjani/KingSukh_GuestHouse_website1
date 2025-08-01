@@ -3,7 +3,7 @@ import "./Section7.css";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 const Section7 = () => {
   return (
-    <div className="section7-wrapper">
+    <div className="section7-wrapper" id ="contact">
       {/* White box - background form container */}
       <div className="white-box">
         <form className="form-content">
