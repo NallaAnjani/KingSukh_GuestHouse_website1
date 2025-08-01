@@ -55,14 +55,15 @@
   background-color: #ff3399;
 }
 
-.social-icons {
-  margin-top: 1rem;
+.social-icons1 {
+  margin-top: 2.5rem;
+ 
 }
 
-.social-icons a {
+.social-icons1 a {
   margin-right: 10px;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .footer-bottom {

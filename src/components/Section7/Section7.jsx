@@ -26,7 +26,7 @@ const Section7 = () => {
         <h2>Contact Info</h2>
 
       <div className="contact-item">
-        <FaMapMarkerAlt className="icon" />
+        <FaMapMarkerAlt className="icon1" />
         <p>
           Beside Barshal Water Tank,<br />
           Manpur, Barhanti,<br />
@@ -35,12 +35,12 @@ const Section7 = () => {
       </div>
 
       <div className="contact-item">
-        <FaEnvelope className="icon" />
+        <FaEnvelope className="icon1" />
         <p>kkghosh0099@gmail.com</p>
       </div>
 
       <div className="contact-item">
-        <FaPhone className="icon" />
+        <FaPhone className="icon1" />
         <p>+91 9007062180</p>
       </div>
 

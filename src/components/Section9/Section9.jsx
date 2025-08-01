@@ -42,10 +42,10 @@ const Section9 = () => {
           <h4>CONTACT US</h4>
           <p>Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</p>
           <p>kkghosh0099@gmail.com</p>
-          <p>+91 9007062180</p>
-          <div className="social-icons">
+          <a href="tel:+919007062180" style={{textDecoration:"none",color:"#888"}}>+91 9007062180</a>
+          <div className="social-icons1">
             <a href="#"><FaFacebook /></a>
-            <a href="#"><FaInstagram /></a>
+            <a href="https://www.instagram.com/kingsukhguesthouse/"><FaInstagram /></a>
             <a href="#"><FaYoutube /></a>
             <a href="#"><FaTwitter /></a>
             
