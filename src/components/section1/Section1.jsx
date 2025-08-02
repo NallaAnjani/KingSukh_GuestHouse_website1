@@ -37,12 +37,10 @@ const Section1 = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Overlay */}
+ 
       {isOpen && (
         <div className="mobile-menu">
-          <div className="close-btn" onClick={toggleMenu}>
-            ✖
-          </div>
+          
           <div className="mobile-links">
             <a href="#sec1">Home</a>
             <a href="#sec2">About</a>
