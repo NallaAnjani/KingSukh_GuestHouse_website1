@@ -37,7 +37,8 @@ const images = [
 const Section6 = () => {
   return (
     <div className="gallery-wrapper" id = "gallery">  
-      <h2 className="gallery-title">Gallery</h2>
+      <h2 className="gallery-title" data-aos="fade-up"
+     data-aos-duration="3000">Gallery</h2>
       <div className="image-grid">
         {images.map((img, index) => (
           <div className="image-item" style={{ gridArea: img.area }} key={index}>
@@ -57,40 +58,3 @@ export default Section6;
 
 
 
-// import React from 'react'
-// import "./Section6.css"; 
-// import images from '../../assets/images/out.jpg'
-
-// // const images = [
-// //   "./images/1.jpg",
-// //   "/images/hills.jpg",
-// //   "/images/room1.jpg",
-// //   "/images/road-red-trees.jpg",
-// //   "/images/room2.jpg",
-// //   "/images/sunset-mountain.jpg",
-// //   "/images/living-room.jpg",
-// //   "/images/road-orange-trees.jpg",
-// //   "/images/room3.jpg",
-// //   "/images/dam.jpg",
-// // ];
-
-
-// const Section6 = () => {
-//   return (
-//      <div className="gallery-container">
-      
-//       <h2 className="gallery-title">GALLARY</h2>
-  
-//       <div className="gallery-grid">
-//         {images.map((src, index) => (
-//           <div className="gallery-item" key={index}>
-//             <img src={src} alt={`gallery-${index}`} className="gallery-image" />
-//           </div>
-          
-//         ))}
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Section6

@@ -53,7 +53,7 @@ body {
   background-color: #f63e88;
 }
 
-/* Book Now button */
+
 .book-now button {
     background-color: #ee2776;
   color: white;
@@ -193,7 +193,7 @@ body {
 
 
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
     .main{
     min-height: 140vh;

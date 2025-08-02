@@ -21,7 +21,6 @@ const Section7 = () => {
         </form>
       </div>
 
-      {/* Pink box - contact info */}
      <div className="contact-card">
         <h2>Contact Info</h2>
 

@@ -12,8 +12,8 @@ const Section3 = () => {
       <p className="subtitle">OUR LIVING ROOM</p>
       <h2 className="title">The Most Memorable Rest Time Starts Here.</h2>
       <div className="card-wrapper">
-        {/* Room 1 */}
-        <div className="room-card">
+    
+        <div className="room-card"  data-aos="fade-up">
           <div className="image-wrapper">
             <img src="https://www.kingsukhguesthouse.com/assets/small.jpg" alt="Cozy Haven Room" />
             <div className="icon-group">
@@ -41,8 +41,8 @@ const Section3 = () => {
           </div>
         </div>
 
-        {/* Room 2 */}
-        <div className="room-card">
+        
+        <div className="room-card"  data-aos="fade-up">
           <div className="image-wrapper">
             <img src="https://www.kingsukhguesthouse.com/assets/large.jpg" alt="Spacious Serenity Suite" />
             <div className="icon-group">
