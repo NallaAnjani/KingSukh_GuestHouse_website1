@@ -40,7 +40,14 @@ const Section9 = () => {
 
         <div className="footer-column">
           <h4>CONTACT US</h4>
-          <p>Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</p>
+          <a
+            href="https://www.google.com/maps/place/Kingsukh+Guest+House/@23.5863373,86.8572101,17z/data=!3m1!4b1!4m6!3m5!1s0x39f6e3fdd3ff9ebb:0x517a57e3f93c1807!8m2!3d23.5863324!4d86.8597904!16s%2Fg%2F11srygxjp6?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
+            target="_self"
+           >
+            Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal
+            723156
+          </a>
+         
           <p>kkghosh0099@gmail.com</p>
           <a href="tel:+919007062180" style={{textDecoration:"none",color:"#888"}}>+91 9007062180</a>
           <div className="social-icons1">

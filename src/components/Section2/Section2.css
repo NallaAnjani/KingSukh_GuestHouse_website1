@@ -125,3 +125,40 @@
     padding: 10px 24px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .section2-container {
+    flex-direction: column;
+    padding: 150px 20px 80px;
+    gap: 50px;
+  }
+
+  .section2-image {
+    max-width: 80vw;
+  }
+
+  .section2-content {
+    padding: 20px;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .section2-title {
+    font-size: 32px;
+  }
+
+  .section2-description,
+  .section2-address,
+  .phone_num {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .section2-button {
+    font-size: 15px;
+    padding: 10px 24px;
+  }
+
+  .section2-subtitle {
+    font-size: 13px;
+  }
+}

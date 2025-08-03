@@ -242,3 +242,67 @@ position: fixed;
 
 
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    min-height: 150vh;
+  }
+
+  .nav-links,
+  .book-now {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar {
+    background-color: #f63e88 !important;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    z-index: 1000;
+  }
+
+  .hero-text h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .hero-text p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .book-now1 {
+    padding: 2rem 0;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+  }
+
+  .book-now1 button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .section2-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section4-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .service-item {
+    text-align: center;
+  }
+}

@@ -141,4 +141,50 @@
     font-size: 16px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .section3 {
+    padding: 2rem 4rem 5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .card-wrapper {
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .room-card {
+    width: 45%;
+  }
+
+  .image-wrapper img {
+    height: 30vh;
+  }
+
+  .icon-group svg {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .room-info {
+    padding: 16px;
+  }
+
+  .room-info p {
+    font-size: 15px;
+  }
+
+  .book-btn {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
 

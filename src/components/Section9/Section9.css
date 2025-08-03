@@ -16,12 +16,14 @@
 .footer-column h3 {
   font-size: 1.5rem;
   line-height: 1.2;
+  cursor: pointer;
 }
 
 .footer-column h4 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   color: #fff;
+  cursor: pointer;
 }
 
 .footer-column p,
@@ -29,18 +31,23 @@
   font-size: 0.95rem;
   color: #aaa;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .footer-column ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 
 .footer-column li strong {
   color: #fff;
 }
-
+.footer-column a{
+  color:#aaa;
+  text-decoration: none;
+}
 .book-now2 {
   margin-top: 1rem;
   padding: 0.7rem 2rem;
